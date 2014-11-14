@@ -1,0 +1,41 @@
+.doge{
+	position: absolute!important;
+	z-index:998!important;
+}
+
+.doge.doge-face{
+    
+    top:20%;
+    left:20%;
+    
+}
+
+.doge.text{
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	z-index:999!important;
+}
+
+#area1{
+	color: red;
+}
+
+#area2{
+	color: blue;
+}
+
+#area3{
+	color: green;
+}
+
+#area4{
+	color: yellow;
+}
+
+#area5{
+	color: purple;
+}
+
+#area6{
+	color: orange;
+}
