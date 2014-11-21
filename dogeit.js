@@ -125,7 +125,7 @@
  
     // Main method.
     dogeIt.prototype.init = function() {
-        this.handler.prepend('<img src="dogeface.png" id="doge-face" class="doge">')
+        this.handler.prepend('<div id="doge-face" class="doge">')
         $('#doge-face').css("left",this.handler.width()/2 - 250);
         for (var i = 0; i < 6; i++) {
           var text = this.textValues[i].toUpperCase()
